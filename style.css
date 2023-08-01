@@ -1,0 +1,55 @@
+body{
+         background-color: blue;
+}
+
+
+h1 {
+  text-align: center;
+  background-color: violet;
+  color:darkblue;
+  width: 264px;
+  height: 85px;
+  border:  solid red;
+  border-width: 54px 45px 65px 45px;
+  border-top-color: black;
+  border-bottom-color: black;
+  border-left-color:black;
+  border-right-color:black;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  padding: 37px;
+  margin: 39px;
+  box-shadow: white 29px 31px 30px;
+}
+h2{
+      outline: 20px solid red;
+      outline-offset: 20px;
+      margin: 200px;
+
+      padding: 50px;
+      /* boder-sda */
+
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+      border-radius: 50%;
+      height: 200px;
+      width: 200px;
+      text-align: center;
+      justify-content: center;
+      display: flex;
+    
+         /* outline-offset: this is property use outline  */
+}
+table , tr, td{
+         border-collapse: collapse;
+         border: 3px solid black;
+         width: 200px;
+         height: 30px;
+         margin: 300px;
+         box-shadow: 5px 5px 5px yellow ;
+         background-color: bisque;
+         font-size: 30px;
+         /* box-shadow: white 5px 5px; */
+}
